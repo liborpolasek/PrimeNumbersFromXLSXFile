@@ -41,7 +41,7 @@ public class PrimeNumbersXLSX {
 		return primeNumbers;
 	}
 	
-	public boolean isPrimeNumber(int number) {
+	private boolean isPrimeNumber(int number) {
 		if(number < 1) return false;
 		for(int i=2; i <= number/2; i++) {
 		   if(number%i == 0) {
